@@ -10,7 +10,7 @@ import java.io.IOException;
  * wechat:ITnan562980080
  * Email:562980080@qq.com
  */
-@WebFilter(filterName = "EditorFilter", urlPatterns = {"*"})
+@WebFilter(filterName = "EditorFilter", urlPatterns = {"/*"})
 public class EditorFilter implements Filter {
     public void destroy() {
     }
